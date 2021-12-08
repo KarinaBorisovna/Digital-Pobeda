@@ -1139,6 +1139,17 @@
     }
   }
 
+  .extra {
+    
+    &::after {
+      display: none;
+    }
+  
+    &::before {
+      display: none;
+    }
+  }
+
   .address {
     flex-direction: column;
     margin-top: 70px;

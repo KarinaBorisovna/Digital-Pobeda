@@ -921,6 +921,13 @@
     font-size: 70px;
   }
 
+  .extra::after {
+    display: none;
+  }
+  .extra::before {
+    display: none;
+  }
+
   .address {
     flex-direction: column;
     margin-top: 70px;
